@@ -1,6 +1,6 @@
-# Stock Dashboard-summer-2023
+# unemployment-inclass-summer-2023
 
-
+![tests](https://github.com/s2t2/unemployment-2023-testing-prep/actions/workflows/python-app.yml/badge.svg)
 
 ## Setup
 
@@ -30,13 +30,19 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the report:
+Run the unemployment report:
 
 ```sh
-python app/unemployment.py
-
 python -m app.unemployment
 ```
+
+
+Run the stocks report:
+
+```sh
+python -m app.stocks
+```
+
 
 Run the web app:
 
@@ -51,10 +57,12 @@ export FLASK_APP=web_app
 flask run
 ```
 
-## Testing
 
-Run tests:
+## Testing
 
 ```sh
 pytest
 ```
+
+
+## [Deployment Guide](/DEPLOYING.md)
